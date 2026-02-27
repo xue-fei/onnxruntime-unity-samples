@@ -2,3 +2,8 @@
 Library
 Logs
 Temp
+.vsconfig
+onnxruntime-unity-samples.sln
+.vs
+Assembly-CSharp.csproj
+obj

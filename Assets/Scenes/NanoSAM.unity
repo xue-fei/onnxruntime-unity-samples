@@ -582,7 +582,7 @@ MonoBehaviour:
   targetImage: {fileID: 1122595137}
   maskOverlay: {fileID: 482634543}
   statusText: {fileID: 474399991}
-  testTexture: {fileID: 2800000, guid: 13ace3e8e50772743930a35f606cd844, type: 3}
+  testTexture: {fileID: 2800000, guid: acc6846ad2d49914d958089f602deff2, type: 3}
 --- !u!1 &1122595135
 GameObject:
   m_ObjectHideFlags: 0

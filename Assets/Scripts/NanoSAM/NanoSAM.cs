@@ -25,9 +25,11 @@ public class NanoSAM : IDisposable
     public NanoSAM(string decoderModelPath)
     {
         var options = new SessionOptions();
+        //CPU 
         options.GraphOptimizationLevel = GraphOptimizationLevel.ORT_ENABLE_ALL;
-        // 如需GPU: options.AppendExecutionProvider_CUDA(0);
 
+        // DML
+        //options.AppendExecutionProvider_DML(0);
         _decoderSession = new InferenceSession(decoderModelPath, options);
 
         Debug.Log("[NanoSAM] Decoder loaded.");

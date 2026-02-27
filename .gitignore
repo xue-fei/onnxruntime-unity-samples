@@ -7,3 +7,6 @@ onnxruntime-unity-samples.sln
 .vs
 Assembly-CSharp.csproj
 obj
+*.dwlt
+Microsoft.ML.OnnxRuntime.csproj
+*.dwlt

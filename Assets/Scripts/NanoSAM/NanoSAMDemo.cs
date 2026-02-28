@@ -11,8 +11,8 @@ using System.IO;
 public class NanoSAMDemo : MonoBehaviour
 {
     [Header("模型路径（相对StreamingAssets）")]
-    public string decoderModelName = "models/mobile_sam_mask_decoder.onnx";
-    public string encoderModelName = "models/sam_hgv2_b4_ln_image_encoder.onnx"; // 可选
+    public string decoderModelName = "models/NanoSAM/mobile_sam_mask_decoder.onnx";
+    public string encoderModelName = "models/NanoSAM/resnet18_image_encoder.onnx"; // 可选
 
     [Header("UI引用")]
     public RawImage targetImage;      // 显示原始图像

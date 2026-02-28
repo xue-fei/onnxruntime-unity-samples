@@ -352,7 +352,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: 13ace3e8e50772743930a35f606cd844, type: 3}
+  m_Texture: {fileID: 2800000, guid: acc6846ad2d49914d958089f602deff2, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -577,8 +577,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cab3ddb93b6d2bb4fa6dd9bba198a16f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SegmentationDemo
-  decoderModelName: models/mobile_sam_mask_decoder.onnx
-  encoderModelName: models/resnet18_image_encoder.onnx
+  decoderModelName: models/NanoSAM/mobile_sam_mask_decoder.onnx
+  encoderModelName: models/NanoSAM/resnet18_image_encoder.onnx
   targetImage: {fileID: 1122595137}
   maskOverlay: {fileID: 482634543}
   statusText: {fileID: 474399991}
@@ -640,7 +640,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: 13ace3e8e50772743930a35f606cd844, type: 3}
+  m_Texture: {fileID: 2800000, guid: acc6846ad2d49914d958089f602deff2, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0

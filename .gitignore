@@ -10,3 +10,4 @@ obj
 *.dwlt
 Microsoft.ML.OnnxRuntime.csproj
 *.dwlt
+*.onnx

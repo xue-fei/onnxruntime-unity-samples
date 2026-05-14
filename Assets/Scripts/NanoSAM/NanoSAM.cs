@@ -29,7 +29,8 @@ public class NanoSAM : IDisposable
         options.GraphOptimizationLevel = GraphOptimizationLevel.ORT_ENABLE_ALL;
 
         // DML
-        //options.AppendExecutionProvider_DML(0);
+        // options.AppendExecutionProvider_DML(0);
+        options.AppendExecutionProvider_CUDA(0);
         _decoderSession = new InferenceSession(decoderModelPath, options);
 
         Debug.Log("[NanoSAM] Decoder loaded.");

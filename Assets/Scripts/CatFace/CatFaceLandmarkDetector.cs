@@ -94,10 +94,8 @@ public class CatFaceLandmarkDetector : MonoBehaviour
             throw new FileNotFoundException($"[CatLandmark] 找不到模型: {modelPath}");
 
         var opts = new SessionOptions();
-        opts.GraphOptimizationLevel = GraphOptimizationLevel.ORT_ENABLE_ALL;
-        // 如需 GPU (需安装 OnnxRuntime.Gpu 包):
-        // opts.AppendExecutionProvider_CUDA(0);
-
+        opts.GraphOptimizationLevel = GraphOptimizationLevel.ORT_ENABLE_ALL; 
+        opts.AppendExecutionProvider_CUDA(0); 
         _session = new InferenceSession(modelPath, opts);
         Debug.Log($"[CatLandmark] 模型加载成功: {modelPath}");
     }

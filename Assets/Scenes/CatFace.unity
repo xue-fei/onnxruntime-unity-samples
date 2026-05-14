@@ -443,7 +443,7 @@ MonoBehaviour:
   _currentTexture: {fileID: 2800000, guid: 73bf4ee7dea390b4291650577af683f3, type: 3}
   displayImage: {fileID: 1122595137}
   landmarkDotPrefab: {fileID: 4606493719646055501, guid: bf86bfa4708d0db4b912b45a4094af63, type: 3}
-  labelFontSize: 12
+  labelFontSize: 20
 --- !u!1 &1122595135
 GameObject:
   m_ObjectHideFlags: 0

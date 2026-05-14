@@ -165,7 +165,7 @@ public class CatFaceLandmarkDemo : MonoBehaviour
             labelRT.anchorMax = new Vector2(0.5f, 0.5f);
             labelRT.pivot = new Vector2(0f, 0.5f);
             labelRT.anchoredPosition = new Vector2(uiX + 8f, uiY);
-            labelRT.sizeDelta = new Vector2(50f, 16f);
+            labelRT.sizeDelta = new Vector2(50f, 24f);
 
             Text label = labelObj.AddComponent<Text>();
             label.text = LANDMARK_NAMES[i];

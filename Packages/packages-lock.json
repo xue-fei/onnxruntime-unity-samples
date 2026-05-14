@@ -4,8 +4,10 @@
       "version": "https://github.com/xue-fei/onnxruntime-unity-cpu.git",
       "depth": 0,
       "source": "git",
-      "dependencies": {},
-      "hash": "44422a4d04702836821d0b33343cdd94198072d3"
+      "dependencies": {
+        "onnxruntime": "https://github.com/xue-fei/onnxruntime-unity.git#main"
+      },
+      "hash": "1d049b3078604094e228f584970d350630c55f63"
     },
     "com.unity.2d.sprite": {
       "version": "1.0.0",
@@ -54,6 +56,31 @@
         "com.unity.modules.ui": "1.0.0",
         "com.unity.modules.imgui": "1.0.0"
       }
+    },
+    "onnxruntime": {
+      "version": "https://github.com/xue-fei/onnxruntime-unity.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "0ffce4473c50b3ff39cf915f50cc29c363c49fc7"
+    },
+    "onnxruntime-cuda": {
+      "version": "https://github.com/xue-fei/onnxruntime-unity-cuda.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "onnxruntime": "https://github.com/xue-fei/onnxruntime-unity.git#main"
+      },
+      "hash": "243dd379ef3f59d39b10e5a030206889ce2a6bce"
+    },
+    "onnxruntime-directml": {
+      "version": "https://github.com/xue-fei/onnxruntime-unity-directml.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "onnxruntime": "https://github.com/xue-fei/onnxruntime-unity.git#main"
+      },
+      "hash": "5dd6b9020e10cbd0a58e80357734925800d2c594"
     },
     "com.unity.modules.accessibility": {
       "version": "1.0.0",

@@ -11,3 +11,4 @@ obj
 Microsoft.ML.OnnxRuntime.csproj
 *.dwlt
 *.onnx
+*.pth

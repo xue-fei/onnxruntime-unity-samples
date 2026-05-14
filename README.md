@@ -25,3 +25,8 @@ u2net_human_seg.onnx
 https://github.com/danielgatis/rembg/releases/download/v0.0.0/u2net_human_seg.onnx  
 u2net.quant.onnx  
 https://github.com/xuebinqin/U-2-Net/issues/295  
+  
+best_cat_model.pth  
+https://github.com/chelsea23311/Cat-Face-Landmark-Detection/releases/download/v1.0/best_cat_model.pth  
+转onnx  
+onnxruntime-unity-samples\Assets\StreamingAssets\models>python export_cat_landmark_onnx.py --weights best_cat_model.pth --output cat_landmark.onnx --simplify  

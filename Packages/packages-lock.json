@@ -1,11 +1,11 @@
 {
   "dependencies": {
-    "ai.onnxruntime": {
+    "ai.onnxruntime.onnxruntime-cpu": {
       "version": "https://github.com/xue-fei/onnxruntime-unity-cpu.git",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "bbcfd54a37ea7040984a811f723a04fbd2cf3407"
+      "hash": "44422a4d04702836821d0b33343cdd94198072d3"
     },
     "com.unity.2d.sprite": {
       "version": "1.0.0",

@@ -34,3 +34,6 @@ best_cat_model.pth
 https://github.com/chelsea23311/Cat-Face-Landmark-Detection/releases/download/v1.0/best_cat_model.pth  
 转onnx  
 onnxruntime-unity-samples\Assets\StreamingAssets\models>python export_cat_landmark_onnx.py --weights best_cat_model.pth --output cat_landmark.onnx --simplify  
+  
+omnivoice-unity  
+https://github.com/xue-fei/omnivoice-unity.git  
